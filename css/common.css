@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+* {margin:0; padding:0; box-sizing: border-box;}
+ul,li,ol {text-decoration: none; list-style:none; margin:0; padding:0;}
+
+header {width:1014px; height:80px; margin: 0 auto; position: relative;}
+
+#logo {float:left; width:210px; height: 185px; margin: 0px; background-color:skyblue;}
+nav {width:430px; height:30px; float:right; margin: 30px 10px 0 0px;}
+nav ul { font-family: "맑은 고딕"; font-weight:bold;}
+li {font-size: small;}
+nav ul li {float: left; padding: 0px 20px;}
+nav ul li a {text-decoration: none; color:#333;}
+nav ul a:hover {color:orange;}
+
+
+
+
+
+footer {width:100%; height: 310px; margin: 0 auto; background-color:#f6f6f6; padding-top: 60px; }
+.follow {width: 320px; height: 215px;  margin: 0 auto;}
+.followbox {width: 185px; height: 30px; margin: 30px auto 0; }
+.follow>h1 {font-size: 17px; color: #a1a1a1; font-family: "Hobo Std"; text-align: center;}
+.follow>h2 {font-size: 12px; color: #a0a0a0; font-family: "굴림"; padding: 30px 0;}
+.borderbox {float: left; margin: 0px 10px; cursor: pointer;}
+.borderbox img {width: 25px; height: 25px;}
+.borderbox2 {width: 50px; height: 50px; border-radius: 50%; background-color: #3c3c3c; margin: 0px auto
+  ; color: white; padding-left: 19px; padding-top: 10px;}
+.borderbox2>a {text-decoration: none; color: #fff;}
