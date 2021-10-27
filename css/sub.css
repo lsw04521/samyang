@@ -1,0 +1,23 @@
+#sub {width:1128px; height:105px; margin: 0 auto; background-color: #ff651b;}
+
+#sub2 {width:1128px; height:1000px; margin: 0 auto; background-color: aqua; position: relative;}
+#sub2>h1 {position:absolute; left: 725px; top: 70px; font-size: 25px; }
+#sub2>h2 {float: right; margin: 110px 185px; font-size: 23px;}
+#sub2>h3 {position:absolute; float: right; font-size: 15px; right:65px; top: 205px;}
+s {color: #87868c; font-size: 21px;}
+
+.submenu {width:200px; height: 30px; padding-bottom: 40px; padding-left: 20px;}
+
+.submenu ul {font-family: "맑은 고딕"; font-size:14px;}
+.submenu ul li {float:left; margin:10px 0 0 10px ;}
+.submenu ul li a {text-decoration: none; color:black; }
+
+.img {width: 150px; height: 150px; left: 20px; background-color: #f2f2f2; position: absolute; float: left; border-radius: 10px;}
+.img2 {width: 500px; height: 500px; background: #f2f2f2; position: absolute; left: 190px; border-radius: 15px;}
+
+.star {width: 60px; height: 15px; position: absolute; left:730px;}
+
+#shop {width: 350px; height: 20px; position: absolute; right: 50px; top: 315px;}
+
+.add {width:350px; height: 50px; background-color: #1f1f1f; position: absolute; right: 50px; top: 370px; color: white; padding-top: 12px; padding-left: 115px; border-radius: 10px;}
+.add2 {width:350px; height: 50px; background-color: #f2f2f2; position: absolute; right: 50px; top: 440px; color: black; padding-top: 12px; padding-left: 145px; border-radius: 10px;}
