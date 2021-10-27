@@ -1,6 +1,6 @@
 #sub {width:1128px; height:105px; margin: 0 auto; background-color: #ff651b;}
 
-#sub2 {width:1128px; height:1000px; margin: 0 auto; background-color: aqua; position: relative;}
+#sub2 {width:1128px; height:1000px; margin: 0 auto; position: relative;}
 #sub2>h1 {position:absolute; left: 725px; top: 70px; font-size: 25px; }
 #sub2>h2 {float: right; margin: 110px 185px; font-size: 23px;}
 #sub2>h3 {position:absolute; float: right; font-size: 15px; right:65px; top: 205px;}
