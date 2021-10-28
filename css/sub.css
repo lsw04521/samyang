@@ -1,23 +1,51 @@
-#sub {width:1128px; height:105px; margin: 0 auto; background-color: #ff651b; color: white; font-size: 27px; font-weight: bold; padding-top: 30px; padding-left: 400px; font-family: "코트라 손글씨체";}
+#sub {width:1128px; height:105px; margin: 0 auto; background-color: #ff651b; color: white; font-size: 30px; font-weight: bold; padding-top: 35px; padding-left: 345px; font-family: "MDGaesung";}
 
 #sub2 {width:1128px; height:1000px; margin: 0 auto; position: relative;}
 #sub2>h1 {position:absolute; left: 725px; top: 70px; font-size: 25px; }
-#sub2>h2 {float: right; margin: 110px 185px; font-size: 23px;}
+#sub2>h2 {position:absolute; left: 725px; top: 150px; font-size: 23px;}
 #sub2>h3 {position:absolute; float: right; font-size: 15px; right:65px; top: 205px;}
-s {color: #87868c; font-size: 21px;}
+s {color: #87868c; font-size: 18px;}
 
 .submenu {width:200px; height: 30px; padding-bottom: 40px; padding-left: 20px;}
 
 .submenu ul {font-family: "맑은 고딕"; font-size:14px;}
 .submenu ul li {float:left; margin:10px 0 0 10px ;}
-.submenu ul li a {text-decoration: none; color:black; }
+.submenu ul li a {text-decoration: none; color:black;}
 
 .img {width: 150px; height: 150px; left: 20px; background-color: #f2f2f2; position: absolute; float: left; border-radius: 10px;}
 .img2 {width: 500px; height: 500px; background: #f2f2f2; position: absolute; left: 190px; border-radius: 15px;}
 
+#review {width: 700px; height: 400px; background-color: antiquewhite; position: absolute; bottom: 40px;}
+.trade {width: 700px; height: 300px; background-color: white; margin: 50px 0px;}
+.trade>h1 {font-size: 15px; font-family: "굴림"; line-height: 2; font-weight: normal;}
+
 .star {width: 60px; height: 15px; position: absolute; left:730px;}
 
-#shop {width: 350px; height: 20px; position: absolute; right: 50px; top: 315px;}
+#shop {width: 350px; height: 20px; position: absolute; right: 50px; top: 315px; padding: 5px; border-radius: 5px; background-color: #f2f2f2;}
 
-.add {width:350px; height: 50px; background-color: #ff651b; position: absolute; right: 50px; top: 370px; color: white; padding-top: 12px; padding-left: 115px; border-radius: 10px;}
-.add2 {width:350px; height: 50px; background-color: #f2f2f2; position: absolute; right: 50px; top: 440px; color: black; padding-top: 12px; padding-left: 145px; border-radius: 10px;}
+.add {cursor: pointer; width:350px; height: 50px; position: absolute; right: 50px; top: 370px; color:#ff651b; font-weight: bold; padding-top: 12px; padding-left: 115px; border-radius: 10px; border: 1px solid #ff651b;}
+.add2 {cursor: pointer; width:350px; height: 50px; background-color: #ff651b; position: absolute; right: 50px; top: 440px; color: white; font-weight: bold; padding-top: 12px; padding-left: 145px; border-radius: 10px;}
+
+#textbox {width: 350px; height: 350px; position: absolute; right: 50px; top: 520px;}
+.share {float: left; margin: 0px 20px; padding-top: 4px;}
+.share img {width: 50px; height: 50px;}
+#textbox>hr {width: 100%;}
+.a {font-size: 15px;  float: left;}
+.b {font-weight: bold; font-size: 18px; float: right; margin: 0px 20px;}
+.c {font-size: 21px; float: left; padding-top: 15px; padding-right: 10px; font-weight: bold; font-family: "MDGaesung"; color: #ff651b;}
+.ava {font-size: 12px; line-height: 15px;}
+.more {width: 150px; height: 50px; padding-top: 9px; padding-left: 9px; font-weight: bold; font-family: "나눔 고딕"; float: left; font-size: 20px; background-color: pink;}
+.more1 {width: 50px; height: 50px; padding-top: 9px; padding-left: 5px; font-weight: bold; font-family: "나눔 고딕"; float: left; font-size: 20px; background-color: pink;}
+.more2 {cursor: pointer; font-size: 30px; color: #ff651b; float: left;}
+
+#product {width: 1128px; height: 500px; margin: 0 auto; padding-top: 50px; padding-left: 4px;}
+#product>h1 {font-size: 27px; color: #464a4d; font-weight: bold; font-family: "Hobo Std"; text-align: center; padding-bottom: 20px;}
+.prod {float: left; margin: 7px; width: 210px; height: 290px; border-radius: 15px;}
+.prod img {width: 220px; height: 200px;}
+.prod-color1 {background-color: #cedaff;}
+.prod-color2 {background-color: #ffe7c8;}
+.prod-color3 {background-color: #ffd0c6;}
+.prod-color4 {background-color: #b9d8ae;}
+.prod-color5 {background-color: #fff2cf;}
+.t1 {font-size: 12px; font-weight: bold; text-align: center;}
+.t2 {font-size: 18px; font-weight: bold; text-align: center;}
