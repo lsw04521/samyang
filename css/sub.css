@@ -2,8 +2,9 @@
 
 #sub2 {width:1128px; height:1500px; margin: 0 auto; position: relative;}
 #sub2>h1 {position:absolute; left: 725px; top: 70px; font-size: 25px; }
-#sub2>h2 {position:absolute; left: 725px; top: 150px; font-size: 23px;}
+#sub2>h2 {position:absolute; left: 780px; top: 150px; font-size: 23px;}
 #sub2>h3 {position:absolute; float: right; font-size: 15px; right:65px; top: 205px;}
+#sub2>h4 {position:absolute; float: right; font-size: 23px; right:360px; top: 150px; color: #ff651b;}
 s {color: #87868c; font-size: 18px;}
 
 .submenu {width:200px; height: 30px; padding-bottom: 40px; padding-left: 20px;}
@@ -13,16 +14,26 @@ s {color: #87868c; font-size: 18px;}
 .submenu ul li a {text-decoration: none; color:black;}
 
 .img {width: 150px; height: 150px; left: 20px; background-color: #f2f2f2; position: absolute; float: left; border-radius: 10px;}
+.img img {width: 150px; height: 150px;}
 .img:hover {border: 1px solid black; cursor: pointer;}
 .img2 {width: 500px; height: 500px; background: #f2f2f2; position: absolute; left: 190px; border-radius: 15px;}
 
-#review {width: 700px; height: 800px; position: absolute; top:600px; position: absolute;}
-#trade {width: 700px; height: 700px; margin: 50px 0px; padding-top: 20px; display: none;}
+#review {width: 700px; height: 800px; top:600px; position: absolute;}
+#trade {width: 700px; height: 720px; margin: 40px 0px; padding-top: 20px; display: none;}
 #trade>h1 {font-size: 12px; font-family: "굴림"; line-height: 2; font-weight: normal;}
 #trade>h2 {font-size: 15px; padding-bottom: 10px;}
 #trade li {list-style: circle; margin: 0 0 0 20px;}
 
+#review2 {height:700px; height: 700px; line-height: 60px; border-top: 2px solid black; margin: 40px 0px; display: none;}
+#review2>table {width: 700px;}
+#review2>table td {text-align: center; border-top:1px solid black;}
+.rb {width: 80px; height: 60px; background-color: #ff651b; color: #fff; font-weight: bold; border-radius: 5px; cursor: pointer; float: right; margin: 120px 0px; text-align: center;}
+.rb:hover {opacity: 0.8;}
+.mrb {width: 100%; height: 100px; border: 1px solid #ff651b; text-align: center; padding-top: 20px; padding-left: 70px;}
+.mrb:hover {background-color: #ff651b; color: white; font-weight: bold;}
+
 .star {width: 60px; height: 15px; position: absolute; left:730px;}
+.star img {width: 60px; height: 15px;}
 
 #shop {width: 350px; height: 20px; position: absolute; right: 50px; top: 315px; padding: 5px; border-radius: 5px; background-color: #f2f2f2;}
 
@@ -39,18 +50,20 @@ s {color: #87868c; font-size: 18px;}
 .b {font-weight: bold; font-size: 18px; float: right; margin: 0px 20px;}
 .c {font-size: 21px; float: left; padding-top: 15px; padding-right: 10px; font-weight: bold; font-family: "MDGaesung"; color: #ff651b;}
 .ava {font-size: 12px; line-height: 15px;}
-.more {width: 150px; height: 50px; padding-top: 9px; padding-left: 9px; font-weight: bold; font-family: "나눔 고딕"; float: left; font-size: 20px; border-radius: 10px;}
-#more2 {cursor: pointer; font-size: 30px; color: #ff651b; float: right; position: relative; right: 50px;}
+.more {width: 150px; height: 40px; padding-top: 6px; padding-left: 9px; font-weight: bold; font-family: "나눔 고딕"; float: left; font-size: 20px;}
+#more2 {cursor: pointer; font-size: 30px; color: #ff651b; float: right; position: relative; right: 50px; bottom: 5px;}
+#more3 {cursor: pointer; font-size: 30px; color: #ff651b; float: right; position: relative; right: 50px; bottom: 5px;}
 
 #product {width: 1128px; height: 500px; margin: 0 auto; padding-top: 50px; padding-left: 4px;}
 #product>h1 {font-size: 27px; color: #464a4d; font-weight: bold; font-family: "Hobo Std"; text-align: center; padding-bottom: 20px;}
 .prod {float: left; margin: 7px; width: 210px; height: 290px; border-radius: 15px; cursor: pointer;}
 .prod img {width: 210px; height: 200px;}
-.prod img:hover {transform: scale(0.8); transition:0.3s;}
+.prod img:hover {transform: scale(0.9); transition:0.3s;}
 .prod-color1 {background-color: #cedaff;}
 .prod-color2 {background-color: #ffe7c8;}
 .prod-color3 {background-color: #ffd0c6;}
 .prod-color4 {background-color: #b9d8ae;}
 .prod-color5 {background-color: #fff2cf;}
-.t1 {font-size: 12px; font-weight: bold; text-align: center;}
+.t1 {font-size: 12px; font-weight: bold; text-align: center; line-height: 1.5;}
 .t2 {font-size: 18px; font-weight: bold; text-align: center;}
+.t3 {font-size: 18px; font-weight: bold; text-align: center; color:#ff651b;}

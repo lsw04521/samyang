@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="ko">
 
 
 <head>
@@ -17,6 +17,11 @@
     $(document).ready(function () {
       $("#more2").click(function () {
         $("#trade").slideToggle()
+        $("#review2").hide()
+      });
+      $("#more3").click(function () {
+        $("#review2").slideToggle()
+        $("#trade").hide()
       });
     });
   </script>
@@ -44,7 +49,7 @@
   <div id="sub2">
     <div class="submenu">
       <ul>
-        <li><a href="#">홈</a></li>
+        <li><a href="index.html">홈</a></li>
         <li>></li>
         <li><a href="#">제품</a></li>
         <li>></li>
@@ -52,14 +57,15 @@
       </ul>
     </div>
 
-    <div class="img"><img src="img/zza.png" alt="zza" width="150" height="150px"></div>
-    <div class="img2"><img src="img/1.jpg" alt="zza2" width="500px" height="500px"></div>
-    <div class="star"><a href="#"><img src="img/star.jpg" alt="star" width="60px" height="15px"></a></div>
+    <div class="img"><img src="img/zza.png" alt="zza"></div>
+    <div class="img2"><img src="img/1.jpg" alt="zza2"></div>
+    <div class="star"><img src="img/star.jpg" alt="star"></div>
 
     <h1>[삼양식품]<br>
       NEW 짜짜로니 140g x 5입
     </h1>
-    <h2>15% 4,030원 <s>4,750원</s></h2>
+    <h4>15%</h4>
+    <h2>4,030원 <s>4,750원</s></h2>
     <h3>
       1970년, 삼양짜장면을 시작으로<br>
       지금까지 이어지는 삼양의 짜장맛 ㅡ 짜짜로니<br>
@@ -67,6 +73,7 @@
       풍부한 짜장의 맛을 느껴보세요!<br>
     </h3>
     <table id="shop">
+      <tr>
       <td>수량선택</td>
       <td>
         <select name="quantity" id="quantity">
@@ -77,8 +84,9 @@
           <option>5</option>
         </select>
       </td>
+    </tr>
     </table>
-    <div class="add">장바구니에 담기</a></div>
+    <div class="add">장바구니에 담기</div>
     <div class="add2">구매하기</div>
 
     <div id="textbox">
@@ -92,9 +100,9 @@
       <br>
       <hr>
       <p class="c">SHARE</p>
-      <div class="share"><a href="#"><img src="img/facebook.png"></a></div>
-      <div class="share"><a href="#"><img src="img/insta.png"></a></div>
-      <div class="share"><a href="#"><img src="img/blog.png"></a></div>
+      <div class="share"><a href="#"><img src="img/facebook.png" alt="facebook"></a></div>
+      <div class="share"><a href="#"><img src="img/insta.png" alt="insta"></a></div>
+      <div class="share"><a href="#"><img src="img/blog.png" alt="blog"></a></div>
       <hr>
       <br>
       <ul>
@@ -114,40 +122,44 @@
       <p class="more">교환/반품안내
       </p>
       <p id="more2">+</p>
+      <br>
+      <br>
+      <hr>
+      <p class="more">리뷰 (32건)</p>
+      <p id="more3">+</p>
+      <br>
+      <br>
+      <hr>
       <div id="trade">
         <h2>교환/반품 안내</h2>
         <hr>
         <br>
         <ul>
           <li>[전자상거래 등에서의 소비자보호에 관한 법률]에 의한 반품규정이 판매자가 지정한 반품 조건보다 우선합니다.</li>
-          <br>
           <li>택배사 : CJ 대한통운 → 한진 택배 변경(2021년 4월부터 적용)</li>
           <li>반품배송비 : 편도 3,000원 (최초 배송비 무료인 경우 6,000원 부과) / 교환배송비 : 6,000원</li>
           <li>보내실 곳 : (우) 13017 경기도 하남시 서하남로487번길 45-35 (춘궁동) 성윤로지스</li>
-          <br>
           <li>- 냉동,냉장식품의 경우 제품 특성상 단순변심에 의한 반품이 불가하므로 주문 시 참고 부탁드립니다.</li>
           <li>- 저단가 상품, 일부 특가 상품은 고객 변심에 의한 교환, 반품의 경우 고객께서 배송비를 부담하셔야 합니다. (제품의 하자, 배송오류는 제외/ 하단 내용 참고)</li>
           <li>- 일부 특가 상품의 경우, 인수 후 제품 하자나 오배송의 경우를 제외한 단순 변심에 의한 교환/반품이 불가할 수 있으니, 각 상품의 상품상세정보를 꼭 참조하십시오.</li>
         </ul>
-          <br>
-          <br>
-          <h2>반품/교환 사유에 따른 요청 가능기간</h2>
-          <hr>
-          <br>
+        <br>
+        <br>
+        <h2>반품/교환 사유에 따른 요청 가능기간</h2>
+        <hr>
+        <br>
         <ul>
           <li>반품 시 맛샵 고객센터를 통해 반품사유, 배송비, 반품지 주소 등을 협의하신 후 상품을 발송하셔야 합니다.</li>
-          <br>
           <li>1. 고객 단순 변심 : 상품 수령 후 7일 이내 (고객 반품배송비 부담)</li>
           <li>2. 제품 하자 : 상품 수령 후 3개월 이내</li>
         </ul>
-          <br>
-          <br>
-          <h2>반품/교환 불가능 사유</h2>
-          <hr>
-          <br>
+        <br>
+        <br>
+        <h2>반품/교환 불가능 사유</h2>
+        <hr>
+        <br>
         <ul>
           <li>아래와 같은 경우 반품/교환이 불가능합니다.</li>
-          <br>
           <li>1. 반품요청기간이 지난 경우</li>
           <li>2. 고객의 귀책사유로 상품이 훼손되거나 멸실된 경우 (단, 상품의 내용 확인을 위하여 포장 등을 훼손한 경우는 제외)</li>
           <li>3. 포장을 개봉하였으나 포장이 훼손되어 상품가치가 현저히 상실된 경우</li>
@@ -156,7 +168,68 @@
           <li>6. 고객주문 확인 후 생산에 들어가는 주문생산상품 (판매자의 회복불가능한 손해가 예상되고, 그러한 이유로 청약철회권 행사가 불가하다는 사실을 서면 동의 받은 경우)</li>
         </ul>
       </div>
-      <div id="review2"></div>
+      <div id="review2">
+        <table>
+          <tr>
+            <th>번호</th>
+            <th>제목</th>
+            <th>닉네임</th>
+            <th>작성날짜</th>
+          </tr>
+
+          <tr>
+            <td>032</td>
+            <td>맛있게 잘 먹었습니다!</td>
+            <td>sa******</td>
+            <td>2021.03.22</td>
+          </tr>
+
+          <tr>
+            <td>031</td>
+            <td>좋아요.</td>
+            <td>qd***</td>
+            <td>2021.03.19</td>
+          </tr>
+
+          <tr>
+            <td>030</td>
+            <td>더 맛있어진 것 같아요</td>
+            <td>mg*****</td>
+            <td>2021.03.10</td>
+          </tr>
+
+          <tr>
+            <td>029</td>
+            <td>너무 맛있어요!!</td>
+            <td>wi****</td>
+            <td>2021.03.04</td>
+          </tr>
+
+          <tr>
+            <td>028</td>
+            <td>즐겨먹는 제품이에요.</td>
+            <td>so******</td>
+            <td>2021.03.01</td>
+          </tr>
+
+          <tr>
+            <td>027</td>
+            <td>배송이 빨라서 좋아요!</td>
+            <td>rj******</td>
+            <td>2021.02.27</td>
+          </tr>
+
+          <tr>
+            <td>026</td>
+            <td>이전보다 더 맛있어진 것 같습니다 :)</td>
+            <td>lp***</td>
+            <td>2021.02.24</td>
+          </tr>
+
+        </table>
+        <div class="rb">리뷰작성</div>
+        <div class="mrb">더 많은 리뷰보기 ></div>
+      </div>
     </div>
   </div>
 
@@ -200,23 +273,26 @@
 
 
 
-</body>
-
-<footer>
-  <div class="follow">
-    <h1>Follow Us</h1>
-    <div class="followbox">
-
-      <div class="borderbox"><a href="https://www.facebook.com/samyangfoods"><img src="img/facebook.png" alt="facebook"></a></div>
-      <div class="borderbox"><a href="https://www.instagram.com/samyangfoods/"><img src="img/insta.png" alt="insta"></a></div>
-      <div class="borderbox"><a href="https://www.youtube.com/channel/UC9Hu-7OguU6HyWaxP_GBYcA"><img src="img/youtube.png" alt="youtube"></a></div>
-      <div class="borderbox"><a href="https://blog.naver.com/samyangfoods"><img src="img/blog.png" alt="blog"></a></div>
-
-
+  <footer>
+    <div class="follow">
+      <h1>Follow Us</h1>
+      <div class="followbox">
+  
+        <div class="borderbox"><a href="https://www.facebook.com/samyangfoods"><img src="img/facebook.png"
+              alt="facebook"></a></div>
+        <div class="borderbox"><a href="https://www.instagram.com/samyangfoods/"><img src="img/insta.png" alt="insta"></a>
+        </div>
+        <div class="borderbox"><a href="https://www.youtube.com/channel/UC9Hu-7OguU6HyWaxP_GBYcA"><img
+              src="img/youtube.png" alt="youtube"></a></div>
+        <div class="borderbox"><a href="https://blog.naver.com/samyangfoods"><img src="img/blog.png" alt="blog"></a></div>
+  
+  
+      </div>
+      <h2>COPYRIGHT © 삼양맛샵 ALL RIGHTS RESERVED.</h2>
+  
+      <div class="borderbox2"><a href="#">∧</a></div>
+  
     </div>
-    <h2>COPYRIGHT © 삼양맛샵 ALL RIGHTS RESERVED.</h2>
-
-    <div class="borderbox2"><a href="#">∧</a></div>
-
-  </div>
-</footer>
+  </footer>
+</body>
+</html>
