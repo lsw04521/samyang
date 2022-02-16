@@ -40,7 +40,7 @@ h4 {font-size: 30px; color: #fff; font-family: "배달의민족 도현"; text-al
 
 .roundbox {width:75px; height:32px; cursor: pointer; border-radius: 8px; background-color: #8e8e8e; color: white; text-align: center; padding-top: 8px; position: relative; top: 15px; font-size: 12px;}
 
-.primary {width: 415px; height: 175px;  float: right;}
+.primary {width: 415px;  float: right;}
 
 h5 {font-size: 19px; color: #464a4d; font-family: "Hobo Std"; text-align: center;}
 h6 {font-size: 19px; color: #464a4d; font-family: "Hobo Std"; text-align: left;}
